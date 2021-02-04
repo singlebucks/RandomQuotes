@@ -9,7 +9,7 @@ const author = document.getElementById('author');
 getQuote();
 
 function getQuote(){
-    fetch("https://type.fit/api/quotes")
+    fetch("https://yoursinfotainment.github.io/RandomQuotes/db.json")
   .then(function(response) {
     return response.json();
   })
