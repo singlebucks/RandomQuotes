@@ -9,7 +9,7 @@ const author = document.getElementById('author');
 getQuote();
 
 function getQuote(){
-    fetch("https://singlebucks.github.io/RandomQuotes/db.json")
+    fetch("https://www.singlebucks.live/RandomQuotes/db.json")
   .then(function(response) {
     return response.json();
   })
